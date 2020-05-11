@@ -7,7 +7,6 @@ fluid.dygraph
 
     dygraph/BackwardStrategy.rst
     dygraph/BatchNorm.rst
-    dygraph/BCELoss.rst
     dygraph/BilinearTensorProduct.rst
     dygraph/Conv2D.rst
     dygraph/Conv2DTranspose.rst
@@ -28,22 +27,17 @@ fluid.dygraph
     dygraph/ExponentialDecay.rst
     dygraph/grad.rst
     dygraph/GroupNorm.rst
-    dygraph/GRUCell.rst
     dygraph/GRUUnit.rst
     dygraph/guard.rst
     dygraph/InstanceNorm.rst
     dygraph/InverseTimeDecay.rst
-    dygraph/L1Loss.rst
     dygraph/Layer.rst
     dygraph/LayerList.rst
     dygraph/LayerNorm.rst
     dygraph/Linear.rst
     dygraph/load_dygraph.rst
-    dygraph/LSTMCell.rst
-    dygraph/MSELoss.rst
     dygraph/NaturalExpDecay.rst
     dygraph/NCE.rst
-    dygraph/NLLLoss.rst
     dygraph/no_grad.rst
     dygraph/NoamDecay.rst
     dygraph/ParallelEnv.rst

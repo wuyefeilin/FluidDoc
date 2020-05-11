@@ -11,13 +11,9 @@ fluid.layers
     layers/adaptive_pool2d.rst
     layers/adaptive_pool3d.rst
     layers/add_position_encoding.rst
-    layers/addcmul.rst
-    layers/addmm.rst
     layers/affine_channel.rst
     layers/affine_grid.rst
-    layers/allclose.rst
     layers/anchor_generator.rst
-    layers/arange.rst
     layers/argmax.rst
     layers/argmin.rst
     layers/argsort.rst
@@ -36,7 +32,6 @@ fluid.layers
     layers/BeamSearchDecoder.rst
     layers/bilinear_tensor_product.rst
     layers/bipartite_match.rst
-    layers/bmm.rst
     layers/box_clip.rst
     layers/box_coder.rst
     layers/box_decoder_and_assign.rst
@@ -48,7 +43,6 @@ fluid.layers
     layers/ceil.rst
     layers/center_loss.rst
     layers/chunk_eval.rst
-    layers/clamp.rst
     layers/clip.rst
     layers/clip_by_norm.rst
     layers/collect_fpn_proposals.rst
@@ -70,7 +64,6 @@ fluid.layers
     layers/crf_decoding.rst
     layers/crop.rst
     layers/crop_tensor.rst
-    layers/cross.rst
     layers/cross_entropy.rst
     layers/ctc_greedy_decoder.rst
     layers/cumsum.rst
@@ -83,11 +76,8 @@ fluid.layers
     layers/density_prior_box.rst
     layers/detection_output.rst
     layers/diag.rst
-    layers/diag_embed.rst
     layers/dice_loss.rst
-    layers/dist.rst
     layers/distribute_fpn_proposals.rst
-    layers/dot.rst
     layers/double_buffer.rst
     layers/dropout.rst
     layers/dynamic_decode.rst
@@ -98,7 +88,6 @@ fluid.layers
     layers/edit_distance.rst
     layers/elementwise_add.rst
     layers/elementwise_div.rst
-    layers/elementwise_equal.rst
     layers/elementwise_floordiv.rst
     layers/elementwise_max.rst
     layers/elementwise_min.rst
@@ -120,11 +109,8 @@ fluid.layers
     layers/fill_constant_batch_size_like.rst
     layers/filter_by_instag.rst
     layers/flatten.rst
-    layers/flip.rst
     layers/floor.rst
     layers/fsp_matrix.rst
-    layers/full.rst
-    layers/full_like.rst
     layers/gather.rst
     layers/gather_nd.rst
     layers/gather_tree.rst
@@ -155,16 +141,13 @@ fluid.layers
     layers/image_resize.rst
     layers/image_resize_short.rst
     layers/increment.rst
-    layers/index_select.rst
     layers/inplace_abn.rst
     layers/instance_norm.rst
-    layers/interpolate.rst
     layers/inverse_time_decay.rst
     layers/iou_similarity.rst
     layers/is_empty.rst
     layers/isfinite.rst
     layers/kldiv_loss.rst
-    layers/kron.rst
     layers/l2_normalize.rst
     layers/label_smooth.rst
     layers/layer_norm.rst
@@ -179,15 +162,12 @@ fluid.layers
     layers/lod_append.rst
     layers/lod_reset.rst
     layers/log.rst
-    layers/log1p.rst
     layers/log_loss.rst
-    layers/log_softmax.rst
     layers/logical_and.rst
     layers/logical_not.rst
     layers/logical_or.rst
     layers/logical_xor.rst
     layers/logsigmoid.rst
-    layers/logsumexp.rst
     layers/lrn.rst
     layers/lstm.rst
     layers/lstm_unit.rst
@@ -198,7 +178,6 @@ fluid.layers
     layers/mean.rst
     layers/mean_iou.rst
     layers/merge_selected_rows.rst
-    layers/meshgrid.rst
     layers/mse_loss.rst
     layers/mul.rst
     layers/multi_box_head.rst
@@ -208,7 +187,6 @@ fluid.layers
     layers/natural_exp_decay.rst
     layers/nce.rst
     layers/noam_decay.rst
-    layers/nonzero.rst
     layers/Normal.rst
     layers/not_equal.rst
     layers/npair_loss.rst
@@ -232,10 +210,7 @@ fluid.layers
     layers/psroi_pool.rst
     layers/py_func.rst
     layers/py_reader.rst
-    layers/randint.rst
-    layers/randn.rst
     layers/random_crop.rst
-    layers/randperm.rst
     layers/range.rst
     layers/rank.rst
     layers/rank_loss.rst
@@ -263,7 +238,6 @@ fluid.layers
     layers/roi_align.rst
     layers/roi_perspective_transform.rst
     layers/roi_pool.rst
-    layers/roll.rst
     layers/round.rst
     layers/row_conv.rst
     layers/rpn_target_assign.rst
@@ -327,7 +301,6 @@ fluid.layers
     layers/swish.rst
     layers/Switch.rst
     layers/switch_case.rst
-    layers/t.rst
     layers/tanh.rst
     layers/tanh_shrink.rst
     layers/target_assign.rst
@@ -336,11 +309,8 @@ fluid.layers
     layers/tensor_array_to_tensor.rst
     layers/thresholded_relu.rst
     layers/topk.rst
-    layers/trace.rst
     layers/TrainingHelper.rst
     layers/transpose.rst
-    layers/tril.rst
-    layers/triu.rst
     layers/unfold.rst
     layers/Uniform.rst
     layers/uniform_random.rst
